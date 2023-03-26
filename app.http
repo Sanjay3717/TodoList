@@ -1,0 +1,14 @@
+###
+GET http://localhost:3000/todos/?search_q=HTML
+
+###
+GET http://localhost:3000/todos/1
+
+###
+POST http://localhost:3000/todos/
+
+###
+PUT http://localhost:3000/todos/4/?status=DONE
+
+###
+DELETE http://localhost:3000/todos/2
